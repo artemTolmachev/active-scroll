@@ -1,0 +1,35 @@
+.container{
+	position: fixed;
+	width: 100%;
+}
+
+.content{
+	display: flex;
+	padding: 17px 0;
+    background-color: #03a9f438;
+    justify-content: space-around;
+}
+
+img {
+	width: 100%;
+}
+
+.btn {
+	border: 3px solid;
+	cursor: pointer;
+	background-color: #000;
+	color: #fff;
+	width: 50px;
+	height: 50px;
+}
+
+
+.active {
+	border: 3px solid red;
+	background-color:seagreen;
+}
+
+.block{
+	height: 30vh;
+	border-bottom: 1px solid black;
+}
